@@ -45,7 +45,7 @@ If we define a function `sumofnaturalnumbers(n)` such that
 
 `sumofnaturalnumbers` = $\frac{n(n+1)}{2}$
 
-we can express our required sum as  
+we can express the required sum as
 $Sum =$ `3 * sumofnaturalnumbers(333) + 5 * sumofnaturalnumbers(195) - 15 *
 sumofnaturalnumbers(66)`
 
