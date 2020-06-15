@@ -49,7 +49,7 @@ we can express our required sum as
 $Sum =$ `3 * sumofnaturalnumbers(333) + 5 * sumofnaturalnumbers(195) - 15 *
 sumofnaturalnumbers(66)`
 
-This can be calculated very easily.
+This can be calculated very easily by plugging in the formula
 
 Note: To find the bound of summation, one can make use of the `modulo` operator.
 For example, to find the sum of the factors of 3 and 5 from 1 to 10000, the
