@@ -26,21 +26,18 @@ the sum of all the multiples of 3 and 5. This means we are asked to print:
 
 Notice that this can decompose into two individual sums:
 
-<img src="https://render.githubusercontent.com/render/math?math=Sum = (3 %2B 6
-%2B 9 %2B 12 %2B 15 %2B ... %2B 999) %2B (5 %2B 10 %2B 15 %2B 20 %2B ... %2B 995)">
+<img src="https://render.githubusercontent.com/render/math?math=Sum%20=%20(3%20%2B%206%20%2B%209%20%2B%2012%20%2B%2015%20%2B%20...%20%2B%20999)%20%2B%20(5%20%2B%2010%20%2B%2015%20%2B%2020%20%2B%20...%20%2B%20995)">
 
 Notice that 15 and it's multiples occur twice, that is, once in the sum of 5 and
 once in the sum of 3. This means that 15 is counted twice. To eliminate this, we
 can subtract the multiples of 15 from the combined sum of the multiples of 3 and
 5.
 
-<img src="https://render.githubusercontent.com/render/math?math=Sum = (3 %2B 6
-%2B 9 %2B 12 %2B 15 %2B ... %2B 999) %2B (5 %2B 10 %2B 15 %2B 20 %2B ... %2B
-995) - (15 %2B 30 %2B 45 %2B 60 %2B ... %2B 995)"> 
+<img src="https://render.githubusercontent.com/render/math?math=Sum%20=%20(3%20%2B%206%20%2B%209%20%2B%2012%20%2B%2015%20%2B%20...%20%2B%20999)%20%2B%20(5%20%2B%2010%20%2B%2015%20%2B%2020%20%2B%20...%20%2B%20195)%20-%20(15%20%2B%2030%20%2B%2045%20%2B%2060%20%2B%20...%20%2B%20995)"> 
 
-<img src="https://render.githubusercontent.com/render/math?math= 3(1 %2B 2
+<img src="https://render.githubusercontent.com/render/math?math=3(1 %2B 2
 %2B 3 %2B 4 %2B 5 %2B ... %2B 333) %2B 5(1 %2B 2 %2B 3 %2B 4 %2B ... %2B 195) - 15(1 %2B 2 %2B 3 %2B 4 %2B ... %2B 66)">
-<img src="https://render.githubusercontent.com/render/math?math=Sum = = 3\sum_{i = 1}^{333} i + 5\sum_{i = 1}^{195} i - 15\sum_{i = 1}^{66} i">
+<img src="https://render.githubusercontent.com/render/math?math=Sum = 3\sum_{i = 1}^{333} i %2B 5\sum_{i = 1}^{195} i - 15\sum_{i = 1}^{66} i">
 
 The sum of consecutive natural numbers is defined by the formula:
 
