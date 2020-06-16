@@ -51,7 +51,6 @@ sumofnaturalnumbers(66)`
 
 This can be calculated very easily by plugging in the formula
 
-Note: To find the bound of summation, one can make use of the `modulo` operator.
+Note: To find the bound of summation, one can use integer division.
 For example, to find the sum of the factors of 3 and 5 from 1 to 10000, the
-bounds of summation would be 9999 `modulo` 3, 9999 `modulo` 5 and 9999 `modulo`
-15
+bounds of summation would be the integer division of 9999 with 3, 5, and 15 respectively
